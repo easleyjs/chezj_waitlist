@@ -1,0 +1,12 @@
+
+
+/* "User xyz logged in as... styles */
+.login__msg {
+  margin-left: 80%;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.username {
+  color: blue;
+}

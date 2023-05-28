@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Patrick+Hand+SC&family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  font-family: Montserrat, sans-serif;
+}
+
+.logo__link {
+  margin-right: auto;
+}
+
+.logo {
+  font-family: "Chango", cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgba(235, 197, 28,1 );
+  height: 1.75rem;
+}
+
+.tagline {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 1.35rem;
+  color: rgba(201, 168, 20, 1);
+  margin-left: 0.25rem;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+button {
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  color: rgba(235, 197, 28,1 );
+  background-color: rgba(133, 54, 125,1);
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(133, 54, 125, 0.6);
+}
