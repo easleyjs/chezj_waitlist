@@ -9,6 +9,7 @@
 body {
   background: #000000;
   font-family: Montserrat, sans-serif;
+  color: white;
 }
 
 /* Logo-related styles */
@@ -46,6 +47,10 @@ a {
    cursor: pointer;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   margin-left: 20px;
   font-family: "Montserrat", sans-serif;
@@ -60,4 +65,21 @@ button {
 
 button:hover {
   background-color: rgba(133, 54, 125, 0.6);
+}
+
+img {
+  align-items: center;
+  padding: 10px 10%;
+  width: 100%;
+}
+
+/* Body/copy styles */
+
+.body__copy {
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.body__copy p {
+  margin-top: 20px;
 }
