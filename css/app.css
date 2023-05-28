@@ -1,4 +1,72 @@
+/* General form styling */
 
+form {
+  margin: auto;
+  width: 40%;
+  border: 1px solid black;
+}
+form > label {
+  display: inline;
+}
+
+label > * {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+label > input {
+  height: 1.2rem;
+  width: 10rem;
+}
+
+label > select {
+  height: 1.8rem;
+  width: 10.5rem;
+}
+
+/* Customer table div where tables/results are placed */
+
+.cust-table-div {
+  border-radius: 8px;
+  background: lightgrey;
+  border: 1px solid black;
+  margin: auto;
+  width: 40%;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.cust-table-div > * {
+  margin-left: 1rem;
+}
+
+.cust-table-div > p > span {
+  font-weight: bold;
+}
+
+/* SVG 'X' delete icon styles */
+
+.deleteIcon {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.25rem;
+  
+}
+
+.deleteIcon > circle:hover {
+  fill: red;
+}
+
+.deleteIcon > circle {
+  stroke: black;
+  fill: lightgrey;
+  stroke-width: 1.5px;
+}
+
+.deleteIcon > line {
+  stroke: black;
+  stroke-width: 2px;
+}
 
 /* "User xyz logged in as... styles */
 .login__msg {

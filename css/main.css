@@ -11,9 +11,7 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
-.logo__link {
-  margin-right: auto;
-}
+/* Logo-related styles */
 
 .logo {
   font-family: "Chango", cursive;
@@ -29,6 +27,12 @@ body {
   color: rgba(201, 168, 20, 1);
   margin-left: 0.25rem;
 }
+
+.logo__link {
+  margin-right: auto;
+}
+
+/* Header styles */
 
 header {
   display: flex;

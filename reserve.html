@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chez J - Fine Cajun Cuisine</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
     <header>
@@ -21,6 +22,28 @@
         <a class="make_res" href="#"><button>Reserve Table</button></a>
     </header>
     <span class="login__msg">Logged in as <span class="username">waitstaff12345</span></span>
+    <!-- App section -->    
+    <form id="custForm">
+      <label for="custName">Customer Name
+        <input id="custName" type="text">
+      </label>
+      <label for="partySize">Party Size (#)
+        <input id="partySize" type="text">
+      </label>
+      <label for="inOutPref">Inside/Outside
+        <select id="inOutPref">
+          <option value="Inside">Inside</option>
+          <option value="Outside">Outside</option>
+        </select>
+      </label>
+      <label for="notes">Notes
+        <textarea name="notes" id="notes" cols="30" rows="5"></textarea>
+      </label>
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <div id="cust-tables-div">
+    </div>
+    <!-- End App section-->
 </body>
 <script src="js/app.js"></script>
 </html>
