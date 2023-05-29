@@ -1,9 +1,16 @@
 /* General form styling */
+h3 {
+  margin: 20px 0 20px 10%;
+
+}
 
 form {
-  margin: auto;
+  padding: 20px;
   width: 40%;
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 25px;
+  background-color: rgb(173, 102, 206);
+  margin-left: 10%;
 }
 form > label {
   display: inline;
@@ -24,13 +31,18 @@ label > select {
   width: 10.5rem;
 }
 
+form button {
+  align-items:center;
+  margin: auto;
+}
+
 /* Customer table div where tables/results are placed */
 
 .cust-table-div {
   border-radius: 8px;
-  background: lightgrey;
+  background-color: rgba(133, 54, 125,1);
   border: 1px solid black;
-  margin: auto;
+  margin: 20px 0 20px 10%;
   width: 40%;
   margin-bottom: 1.2rem;
   position: relative;
@@ -42,15 +54,15 @@ label > select {
 
 .cust-table-div > p > span {
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 /* SVG 'X' delete icon styles */
 
 .deleteIcon {
   position: absolute;
-  top: 0.4rem;
+  top: 0.25rem;
   right: 0.25rem;
-  
 }
 
 .deleteIcon > circle:hover {
@@ -58,7 +70,7 @@ label > select {
 }
 
 .deleteIcon > circle {
-  stroke: black;
+  stroke: lightgrey;
   fill: lightgrey;
   stroke-width: 1.5px;
 }
