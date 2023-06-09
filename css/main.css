@@ -73,13 +73,28 @@ img {
   width: 100%;
 }
 
-/* Body/copy styles */
+/* Body/copy and general Menu page styles */
 
-.body__copy {
+.body__copy, .menu__div {
   align-items: center;
   padding: 30px 10%;
 }
 
 .body__copy p {
   margin-top: 20px;
+}
+
+/* Menu page styles */
+.menu__div > h2, .menu__div > h1 {
+  margin-top: 20px;
+}
+.menu__div > h2 {
+  color:rgba(201, 168, 20, 1);
+}
+.menu__div > p {
+  margin-top: 1rem;
+}
+
+.menu__div > img {
+  width: 100%;
 }

@@ -44,12 +44,12 @@ form button {
   border: 1px solid black;
   margin: 20px 0 20px 10%;
   width: 40%;
-  margin-bottom: 1.2rem;
   position: relative;
 }
 
 .cust-table-div > * {
-  margin-left: 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  
 }
 
 .cust-table-div > p > span {
@@ -61,8 +61,8 @@ form button {
 
 .deleteIcon {
   position: absolute;
-  top: 0.25rem;
-  right: 0.25rem;
+  bottom: 105px;
+  left: 710px;
 }
 
 .deleteIcon > circle:hover {
